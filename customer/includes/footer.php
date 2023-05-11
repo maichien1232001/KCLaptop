@@ -9,7 +9,7 @@
                     <li><a href="../cart.php">Giỏ hàng</a></li>
                     <li><a href="../contact.php">Liên hệ</a></li>
                     <li><a href="../shop.php">Sản phẩm</a></li>
-                    <li><a href="my_account.php">Tài khoản</a></li>
+                    <li><a href="my_account.php?my_orders">Tài khoản</a></li>
                 </ul><!-- ul Finish -->
                 
                 <hr>
@@ -104,12 +104,11 @@
                 
                 <p><!-- p Start -->
                     
-                <strong>KCLap.</strong>
-                    <br/>Lê Thế Kỷ
+                <strong>Máy tính Quốc Cường</strong>
+                    <br/>Trần Ngọc Anh
                     <br/>Mai Xuân Chiến
                     <br/>0818-0683-3157
                     <br/>mugianto4th@gmail.com
-                    <br/><strong>Mr.KC</strong>
                     
                 </p><!-- p Finish -->
                 

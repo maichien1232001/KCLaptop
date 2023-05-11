@@ -87,8 +87,8 @@ include("functions/functions.php");
                
                <a href="index.php" class="navbar-brand home"><!-- navbar-brand home Begin -->
                    
-                   <img src="images/ecom-store-logo.png" alt="KCLaptop Logo" class="hidden-xs">
-                   <img src="images/ecom-store-logo-mobile.png" alt="KCLaptop Logo Mobile" class="visible-xs">
+                   <img src="images/ecom-store-logo.png" alt="Máy tính Quốc Cường Logo" class="hidden-xs">
+                   <img src="images/ecom-store-logo-mobile.png" alt="Máy tính Quốc Cường Logo Mobile" class="visible-xs">
                    
                </a><!-- navbar-brand home Finish -->
                
@@ -567,7 +567,7 @@ include("functions/functions.php");
                                
                                <tr><!-- tr Begin -->
                                    
-                                   <td> Order All Sub-Total </td>
+                                   <td> Tổng tiền tất cả đơn hàng </td>
                                    <th> $<?php echo $total; ?> </th>
                                    
                                </tr><!-- tr Finish -->

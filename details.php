@@ -81,7 +81,7 @@ include("functions/functions.php");
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>KCLaptop</title>
+    <title>Máy tính Quốc Cường</title>
     <link rel="stylesheet" href="styles/bootstrap-337.min.css">
     <link rel="stylesheet" href="font-awsome/css/font-awesome.min.css">
     <link rel="stylesheet" href="styles/style.css">
@@ -163,8 +163,8 @@ include("functions/functions.php");
                
                <a href="index.php" class="navbar-brand home"><!-- navbar-brand home Begin -->
                    
-                   <img src="images/up.png" alt="KClap Logo" class="hidden-xs">
-                   <img src="images/logoMb.png" alt="KClap Logo Mobile" class="visible-xs">
+                   <img src="images/Máy Tính.png" alt="Máy Tính Quốc Cường Logo" class="hidden-xs">
+                   <img src="images/Máy Tính.png" alt="Máy Tính Quốc Cường Logo Mobile" class="visible-xs">
                    
                </a><!-- navbar-brand home Finish -->
                

@@ -18,7 +18,7 @@ include("functions/functions.php");
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>KCLaptop</title>
+    <title>Máy tính Quốc Cường</title>
     <link rel="stylesheet" href="styles/bootstrap-337.min.css">
     <link rel="stylesheet" href="font-awsome/css/font-awesome.min.css">
     <link rel="stylesheet" href="styles/style.css">
@@ -59,8 +59,8 @@ include("functions/functions.php");
                <li>
                        <a href="../customer_register.php">Đăng ký</a>
                    </li>
-                   <li>
-                       <a href="my_account.php">Tài khoản</a>
+                   <li class="active">
+                       <a href="my_account.php?my_orders">Tài khoản</a>
                    </li>
                    <li>
                        <a href="../cart.php">Giỏ hàng</a>
@@ -101,8 +101,8 @@ include("functions/functions.php");
                
                <a href="../index.php" class="navbar-brand home"><!-- navbar-brand home Begin -->
                    
-                   <img src="images/up.png" alt="KCLaptop Logo" class="hidden-xs img-shop">
-                   <img src="images/logoMb.png" alt="KCLaptop Logo Mobile" class="visible-xs">
+                   <img src="images/pc.png" alt="Máy tính Quốc Cường Logo" class="hidden-xs img-shop">
+                   <img src="images/logoMb.png" alt="Máy tính Quốc Cường Logo Mobile" class="visible-xs">
                    
                </a><!-- navbar-brand home Finish -->
                
@@ -137,7 +137,7 @@ include("functions/functions.php");
                            <a href="../shop.php">Sản phẩm</a>
                        </li>
                        <li class="active">
-                           <a href="my_account.php">Tài khoản</a>
+                           <a href="my_account.php?my_orders">Tài khoản</a>
                        </li>
                        <li>
                            <a href="../cart.php">Giỏ hàng</a>

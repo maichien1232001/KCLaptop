@@ -398,3 +398,9 @@ body{
 #copyright p{
     margin: 0px;
 }
+
+.hidden-xs.img-shop{
+    width: 100%;
+    height: 100%;
+    background-color: #fff;
+}

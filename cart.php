@@ -451,7 +451,7 @@
                                
                                <tr><!-- tr Begin -->
                                    
-                                   <td> Order All Sub-Total </td>
+                                   <td> Tổng tiền tất cả đơn hàng </td>
                                    <th> $<?php echo $total; ?> </th>
                                    
                                </tr><!-- tr Finish -->

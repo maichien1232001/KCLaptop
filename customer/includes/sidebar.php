@@ -58,7 +58,7 @@
                 
             </li>
             
-            <li class="<?php if(isset($_GET['pay_offline'])){ echo "active"; } ?>">
+            <!-- <li class="<?php if(isset($_GET['pay_offline'])){ echo "active"; } ?>">
                 
                 <a href="my_account.php?pay_offline">
                     
@@ -66,7 +66,7 @@
                     
                 </a>
                 
-            </li>
+            </li> -->
             
             <li class="<?php if(isset($_GET['edit_account'])){ echo "active"; } ?>">
                 

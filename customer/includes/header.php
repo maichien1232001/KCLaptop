@@ -92,7 +92,7 @@ if(isset($_GET['pro_id'])){
                        <a href="../customer_register.php">Đăng ký</a>
                    </li>
                    <li>
-                       <a href="my_account.php">Tài khoản</a>
+                       <a href="my_account.php?my_orders">Tài khoản</a>
                    </li>
                    <li>
                        <a href="../cart.php">Giỏ hàng</a>
@@ -169,7 +169,7 @@ if(isset($_GET['pro_id'])){
                            <a href="../shop.php">Sản phẩm</a>
                        </li>
                        <li class="active">
-                           <a href="my_account.php">Tài khoản</a>
+                           <a href="my_account.php?my_orders">Tài khoản</a>
                        </li>
                        <li>
                            <a href="../cart.php">Giỏ hàng</a>

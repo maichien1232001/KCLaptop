@@ -88,12 +88,12 @@
                 
                 <p><!-- p Start -->
                     
-                    <strong>KCLap.</strong>
-                    <br/>Lê Thế Kỷ
+                    <strong>Máy tính Quốc Cường</strong>
+                    <br/>Trần Ngọc Anh
                     <br/>Mai Xuân Chiến
                     <br/>0818-0683-3157
                     <br/>mugianto4th@gmail.com
-                    <br/><strong>Mr.KC</strong>
+                    
                     
                 </p><!-- p Finish -->
                 
@@ -154,7 +154,7 @@
         </div><!-- col-md-6 Finish -->
         <div class="col-md-6"><!-- col-md-6 Begin -->
             
-            <p class="pull-right">Theme by: <a href="#">Mr.KC</a></p>
+            <p class="pull-right">Theme by: <a href="#">Máy tính Quốc Cường</a></p>
             
         </div><!-- col-md-6 Finish -->
     </div><!-- container Finish -->

@@ -34,7 +34,7 @@
            
            <td> Tên ngân hàng: Techcombank | Tài khoản số: 180-839-032 | Tên chi nhánh: Hoa Kỳ | Mã chi nhánh: 1498 </td>
            <td> NIC #980-231-907 | Số điện thoại: 0931-7894-9983 | Tên: MrKC </td>
-           <td> Tên: Lê Thế Kỷ | Số điện thoại: 0931-7894-9983 Quốc gia: VietNam | Tên: MrKC | NIC #980-231-907 </td>
+           <td> Tên: Trần Ngọc Anh | Số điện thoại: 0931-7894-9983 Quốc gia: VietNam | Tên: MrKC | NIC #980-231-907 </td>
             
         </tbody>
         
