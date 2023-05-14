@@ -54,7 +54,7 @@ include("functions/functions.php");
                        <a href="customer_register.php">Đăng ký</a>
                    </li>
                    <li>
-                       <a href="checkout.php">Tài khoản</a>
+                       <a href="customer/my_account.php?my_orders">Tài khoản</a>
                    </li>
                    <li>
                        <a href="cart.php">Giỏ hàng</a>

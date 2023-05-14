@@ -122,7 +122,7 @@ include("functions/functions.php");
                        <a href="customer_register.php">Đăng ký</a>
                    </li>
                    <li>
-                       <a href="checkout.php">Tài khoản của tôi</a>
+                       <a href="./customer/my_account.php?my_orders">Tài khoản</a>
                    </li>
                    <li>
                        <a href="cart.php">Giỏ hàng</a>
@@ -163,8 +163,8 @@ include("functions/functions.php");
                
                <a href="index.php" class="navbar-brand home"><!-- navbar-brand home Begin -->
                    
-                   <img src="images/Máy Tính.png" alt="Máy Tính Quốc Cường Logo" class="hidden-xs">
-                   <img src="images/Máy Tính.png" alt="Máy Tính Quốc Cường Logo Mobile" class="visible-xs">
+                   <img src="images/pc.png" alt="Máy Tính Quốc Cường Logo" class="hidden-xs img-shop">
+                   <img src="images/pc.png" alt="Máy Tính Quốc Cường Logo Mobile" class="visible-xs">
                    
                </a><!-- navbar-brand home Finish -->
                
@@ -208,7 +208,7 @@ include("functions/functions.php");
                                
                            }else{
                                
-                              echo"<a href='customer/my_account.php?my_orders'>Tài khoản</a>"; 
+                              echo"<a href='./customer/my_account.php?my_orders'>Tài khoản</a>"; 
                                
                            }
                            
@@ -309,13 +309,13 @@ include("functions/functions.php");
                                
                                <div class="carousel-inner">
                                    <div class="item active">
-                                       <center><img class="img-responsive" src="admin_area/product_images/<?php echo $pro_img1; ?>" alt="Product 3-a"></center>
+                                       <center><img  src="admin_area/product_images/<?php echo $pro_img1; ?>" alt="Product 3-a"></center>
                                    </div>
                                    <div class="item">
-                                       <center><img class="img-responsive" src="admin_area/product_images/<?php echo $pro_img2; ?>" alt="Product 3-b"></center>
+                                       <center><img  src="admin_area/product_images/<?php echo $pro_img2; ?>" alt="Product 3-b"></center>
                                    </div>
                                    <div class="item">
-                                       <center><img class="img-responsive" src="admin_area/product_images/<?php echo $pro_img3; ?>" alt="Product 3-c"></center>
+                                       <center><img  src="admin_area/product_images/<?php echo $pro_img3; ?>" alt="Product 3-c"></center>
                                    </div>
                                </div>
                                
@@ -487,19 +487,19 @@ include("functions/functions.php");
                            
                            <div class="col-xs-4"><!-- col-xs-4 Begin -->
                                <a data-target="#myCarousel" data-slide-to="0"  href="#" class="thumb"><!-- thumb Begin -->
-                                   <img src="admin_area/product_images/<?php echo $pro_img1; ?>" alt="product 1" class="img-responsive">
+                                   <img src="admin_area/product_images/<?php echo $pro_img1; ?>" alt="product 1" >
                                </a><!-- thumb Finish -->
                            </div><!-- col-xs-4 Finish -->
                            
                            <div class="col-xs-4"><!-- col-xs-4 Begin -->
                                <a data-target="#myCarousel" data-slide-to="1"  href="#" class="thumb"><!-- thumb Begin -->
-                                   <img src="admin_area/product_images/<?php echo $pro_img2; ?>" alt="product 2" class="img-responsive">
+                                   <img src="admin_area/product_images/<?php echo $pro_img2; ?>" alt="product 2" >
                                </a><!-- thumb Finish -->
                            </div><!-- col-xs-4 Finish -->
                            
                            <div class="col-xs-4"><!-- col-xs-4 Begin -->
                                <a data-target="#myCarousel" data-slide-to="2"  href="#" class="thumb"><!-- thumb Begin -->
-                                   <img src="admin_area/product_images/<?php echo $pro_img3; ?>" alt="product 4" class="img-responsive">
+                                   <img src="admin_area/product_images/<?php echo $pro_img3; ?>" alt="product 4" >
                                </a><!-- thumb Finish -->
                            </div><!-- col-xs-4 Finish -->
                            

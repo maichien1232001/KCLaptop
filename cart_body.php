@@ -46,7 +46,7 @@ include("functions/functions.php");
                        <a href="customer_register.php">Đăng ký</a>
                    </li>
                    <li>
-                       <a href="checkout.php">Tài khoản</a>
+                       <a href="./customer/my_account.php?my_orders">Tài khoản</a>
                    </li>
                    <li>
                        <a href="cart.php">Giỏ hàng</a>
@@ -87,8 +87,8 @@ include("functions/functions.php");
                
                <a href="index.php" class="navbar-brand home"><!-- navbar-brand home Begin -->
                    
-                   <img src="images/ecom-store-logo.png" alt="Máy tính Quốc Cường Logo" class="hidden-xs">
-                   <img src="images/ecom-store-logo-mobile.png" alt="Máy tính Quốc Cường Logo Mobile" class="visible-xs">
+                   <img src="images/pc.png" alt="Máy tính Quốc Cường Logo" class="hidden-xs img-shop">
+                   <img src="images/pc.png" alt="Máy tính Quốc Cường Logo Mobile" class="visible-xs">
                    
                </a><!-- navbar-brand home Finish -->
                
@@ -132,7 +132,7 @@ include("functions/functions.php");
                                
                            }else{
                                
-                              echo"<a href='customer/my_account.php?my_orders'>Tài khoản</a>"; 
+                              echo"<a href='./customer/my_account.php?my_orders'>Tài khoản</a>"; 
                                
                            }
                            

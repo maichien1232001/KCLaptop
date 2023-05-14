@@ -453,7 +453,7 @@ body{
     color: #fff;
 }
 .product a img.img-responsive{
-    max-height: 252px;
+    max-height: 252px ;
     width: 100%;
 }
 
@@ -511,7 +511,7 @@ body{
 
 img{
     width: 100%;
-    height: auto;
+    height: auto ;
 }
 
 .hidden-xs.img-shop{
