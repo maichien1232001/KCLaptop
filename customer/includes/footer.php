@@ -100,7 +100,7 @@
             
             <div class="col-sm-6 col-md-3"><!-- col-sm-6 col-md-3 Begin -->
                 
-                <h4>Find Us</h4>
+                <h4>Liên hệ với chúng tôi</h4>
                 
                 <p><!-- p Start -->
                     
@@ -108,7 +108,7 @@
                     <br/>Trần Ngọc Anh
                     <br/>Mai Xuân Chiến
                     <br/>0818-0683-3157
-                    <br/>mugianto4th@gmail.com
+                    <br/>quoccuongcompuer@gmail.com
                     
                 </p><!-- p Finish -->
                 
@@ -164,7 +164,7 @@
     <div class="container"><!-- container Begin -->
         <div class="col-md-6"><!-- col-md-6 Begin -->
             
-            <p class="pull-left">&copy; 2022 KCLap Store All Rights Reserve</p>
+            <p class="pull-left">&copy; 2023 Quoc Cuong Computer All Rights Reserve</p>
             
         </div><!-- col-md-6 Finish -->
         <div class="col-md-6"><!-- col-md-6 Begin -->

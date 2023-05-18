@@ -48,7 +48,7 @@ $customer_image = $row_customer['customer_image'];
     
     <div class="form-group"><!-- form-group Begin -->
         
-        <label> Tỉnh </label>
+        <label> Quốc gia </label>
         
         <input type="text" name="c_country" class="form-control" value="<?php echo $customer_country; ?>" required>
         
@@ -56,7 +56,7 @@ $customer_image = $row_customer['customer_image'];
     
     <div class="form-group"><!-- form-group Begin -->
         
-        <label> Huyện </label>
+        <label> Tỉnh </label>
         
         <input type="text" name="c_city" class="form-control" value="<?php echo $customer_city; ?>" required>
         
@@ -72,7 +72,7 @@ $customer_image = $row_customer['customer_image'];
     
     <div class="form-group"><!-- form-group Begin -->
         
-        <label> Liên hệ: </label>
+        <label> Nơi Sống: </label>
         
         <input type="text" name="c_address" class="form-control" value="<?php echo $customer_address; ?>" required>
         

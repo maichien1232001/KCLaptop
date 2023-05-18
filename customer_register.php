@@ -60,7 +60,7 @@
                            
                            <div class="form-group"><!-- form-group Begin -->
                                
-                               <label>Tỉnh</label>
+                               <label>Quốc gia</label>
                                
                                <input type="text" class="form-control" name="c_country" required>
                                
@@ -68,7 +68,7 @@
                            
                            <div class="form-group"><!-- form-group Begin -->
                                
-                               <label>Thành phố</label>
+                               <label>Tỉnh</label>
                                
                                <input type="text" class="form-control" name="c_city" required>
                                
@@ -84,7 +84,7 @@
                            
                            <div class="form-group"><!-- form-group Begin -->
                                
-                               <label>Địa chỉ</label>
+                               <label>Nơi Sống</label>
                                
                                <input type="text" class="form-control" name="c_address" required>
                                
