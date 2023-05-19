@@ -74,7 +74,7 @@
                 $order_status = $row_orders['order_status'];
                 
                 $i++;
-                
+                $_SESSION['due_amount'] = $due_amount;
                 if($order_status=='pending'){
 
                     $get_p_orders = "select * from customer_orders where customer_id='$customer_id' and order_status = 'pending'";
@@ -114,7 +114,7 @@
                 <td> <?php echo $order_status; ?> </td>
                 
                 <td>
-                    
+                    <?php $_SESSION['order_id'] = $order_id; ?>
                     <a href="confirm.php?order_id=<?php echo $order_id; ?>" target="_blank" class="btn btn-primary btn-sm"> Xác nhận đã thanh toán </a>
                     
                 </td>

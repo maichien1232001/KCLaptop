@@ -2,6 +2,7 @@
 
 session_start();
 
+
 if(!isset($_SESSION['customer_email'])){
     
     echo "<script>window.open('../checkout.php','_self')</script>";
@@ -10,12 +11,19 @@ if(!isset($_SESSION['customer_email'])){
 
 include("includes/db.php");
 include("functions/functions.php");
+// include "my_orders.php";
     
-if(isset($_GET['order_id'])){
-    
+if (isset($_GET['order_id'])) {
     $order_id = $_GET['order_id'];
-    
 }
+
+$due_amount = isset($_SESSION['due_amount']) ? intval($_SESSION['due_amount']) : 0;
+// Chuyển hướng đến trang vnpay_create_payment.php với tham số order_id và due_amount
+// if ($needRedirect) {
+//     // Thực hiện chuyển hướng
+//     header("Location: vnpay_php/vnpay_create_payment.php");
+//     exit(); // Kết thúc kịch bản để đảm bảo không có đầu ra khác được gửi đến trình duyệt
+// }
 
 ?>
 <!DOCTYPE html>
@@ -261,6 +269,8 @@ if(isset($_GET['order_id'])){
                           <select name="payment_mode" class="form-control"><!-- form-control Begin -->
                               
                             <option> Trả tiền trực tiếp </option>
+                            <option> VNPay </option>
+
                               
                           </select><!-- form-control Finish -->
                            
@@ -276,9 +286,9 @@ if(isset($_GET['order_id'])){
                        
                        <div class="form-group"><!-- form-group Begin -->
                            
-                         <label> Trả tiền trực tiếp </label>
+                         <label> Tổng tiền phải trả </label>
                           
-                          <input type="text" class="form-control" name="code" required>
+                         <input type="text" class="form-control" name="code" value="<?php echo $due_amount; ?>" required>
                            
                        </div><!-- form-group Finish -->
                        
@@ -304,6 +314,8 @@ if(isset($_GET['order_id'])){
                    
                    <?php 
                    
+                    
+
                     if(isset($_POST['confirm_payment'])){
                         
                         $update_id = $_GET['update_id'];
@@ -311,9 +323,9 @@ if(isset($_GET['order_id'])){
                         $invoice_no = $_POST['invoice_no'];
                         
                         $amount = $_POST['amount_sent'];
-                        
+
                         $payment_mode = $_POST['payment_mode'];
-                        
+
                         $ref_no = $_POST['ref_no'];
                         
                         $code = $_POST['code'];
@@ -339,7 +351,17 @@ if(isset($_GET['order_id'])){
                         // $run_pending_order = mysqli_query($con,$update_pending_order);
                         
                         if($run_pending_order){
-                            
+                            if(isset($_POST['payment_mode'])){
+
+                                $payment_mode = $_POST['payment_mode'];
+    
+                                if($payment_mode == "VNPay"){
+    
+                                    echo"<script>window.open('../vnpay_php/vnpay_pay.php','_self')</script>";
+
+                                    echo "<script>window.open('my_account.php?my_orders','_self')</script>";
+                                }
+                            }
                             echo "<script>alert('Cảm ơn bạn đã mua hàng, đơn đặt hàng của bạn sẽ được hoàn thành trong vòng 24 giờ làm việc')</script>";
                             
                             echo "<script>window.open('my_account.php?my_orders','_self')</script>";
