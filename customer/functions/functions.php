@@ -1,6 +1,6 @@
 <?php 
 
-$db = mysqli_connect("localhost","root","","kychienlaptop");
+$db = mysqli_connect("localhost","root","","quoccuongcomputer");
 
 /// begin getRealIpUser functions ///
 

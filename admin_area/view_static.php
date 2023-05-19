@@ -35,7 +35,7 @@
             
             <?php 
 
-            $con = new PDO('mysql:dbname=kychienlaptop;host=localhost', "root", "");
+            $con = new PDO('mysql:dbname=quoccuongcomputer;host=localhost', "root", "");
 
             ?>
 
@@ -86,7 +86,7 @@
                 <?php
                     
                     
-                    $sql = 'SELECT order_date, SUM(due_amount) AS due_amount FROM kychienlaptop.customer_orders GROUP BY order_date';
+                    $sql = 'SELECT order_date, SUM(due_amount) AS due_amount FROM quoccuongcomputer.customer_orders GROUP BY order_date';
                     $result = $con->query(($sql));
 
                     if($result->rowCount()>0){
